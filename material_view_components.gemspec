@@ -17,4 +17,5 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "rails", ">= 6.1.4"
   spec.add_dependency "view_component"
+  spec.add_development_dependency "cssbundling-rails"
 end
