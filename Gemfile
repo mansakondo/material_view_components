@@ -7,6 +7,7 @@ gemspec
 group :development do
   gem "sqlite3"
   gem "pry-rails"
+  gem "puma"
 end
 
 # Start debugger with binding.b -- Read more: https://github.com/ruby/debug
