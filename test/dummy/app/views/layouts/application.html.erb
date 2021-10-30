@@ -9,7 +9,7 @@
     <%= stylesheet_link_tag "material_view_components/application" %>
   </head>
 
-  <body>
+  <body class="<%= yield :body_classes %>">
     <%= yield %>
   </body>
 </html>
