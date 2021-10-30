@@ -7,6 +7,6 @@
     "tailwindcss": "^2.2.19"
   },
   "scripts": {
-    "build:css": "tailwindcss -i ./app/assets/stylesheets/material_view_components/application.css -o ./app/assets/builds/material_view_components/application.css"
+    "build:css": "tailwindcss -i ./app/assets/stylesheets/material_view_components/application.tailwind.css -o ./app/assets/builds/material_view_components/application.css"
   }
 }
