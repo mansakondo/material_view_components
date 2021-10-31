@@ -5,6 +5,7 @@
     "@hotwired/stimulus": "^3.0.1",
     "autoprefixer": "^10.4.0",
     "esbuild": "^0.13.12",
+    "esbuild-plugin-import-glob": "^0.1.1",
     "postcss": "^8.3.11",
     "tailwindcss": "^2.2.19"
   },
