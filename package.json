@@ -10,6 +10,6 @@
   },
   "scripts": {
     "build:css": "tailwindcss -i ./app/assets/stylesheets/material_view_components/application.tailwind.css -o ./app/assets/builds/material_view_components/application.css",
-    "build": "esbuild app/javascript/*.* --bundle --outdir=app/assets/builds"
+    "build": "./build.js"
   }
 }
