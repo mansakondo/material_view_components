@@ -138,6 +138,8 @@ GEM
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
     sqlite3 (1.4.2)
+    stimulus-rails (0.7.1)
+      rails (>= 6.0.0)
     thor (1.1.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
@@ -159,6 +161,7 @@ DEPENDENCIES
   pry-rails
   puma
   sqlite3
+  stimulus-rails
 
 BUNDLED WITH
    2.2.16
