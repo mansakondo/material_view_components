@@ -1,4 +1,6 @@
 <material-button-component data-controller="material--button-component">
-  <%= stylesheet_link_tag "material_view_components/application" %>
-  <%= button_tag @text, class: "bg-purple-700 px-8 py-2 rounded text-white uppercase font-sans" %>
+  <template shadowroot="open">
+    <%= stylesheet_link_tag "material_view_components/application" %>
+    <%= button_tag @text, class: "bg-purple-700 px-8 py-2 rounded text-white uppercase font-sans" %>
+  </template>
 </material-button-component>
