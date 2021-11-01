@@ -1,8 +1,14 @@
-import { Controller } from "@hotwired/stimulus";
+import BaseComponentController from "./base_component_controller";
 
-export default class extends Controller {
+export default class extends BaseComponentController {
   connect() {
-    console.log("Hello, Stimulus!", this.element);
+    super.connect(function() {
+      const shadow = this.attachShadow({mode: "open"})
+      const style  = this.querySelector("link")
+      const button = this.querySelector("button")
+
+      shadow.appendChild(style)
+      shadow.appendChild(button)
+    })
   }
 }
-
