@@ -106,6 +106,13 @@ module.exports = {
         DEFAULT: 'var(--material-color-inverse-primary)',
         'on-dark': 'var(--material-color-inverse-primary-on-dark)',
       },
+    },
+    fontFamily: {
+      'display': 'var(--material-typescale-display-large-font)',
+      'headline': 'var(--material-typescale-headline-large-font)',
+      'title': 'var(--material-typescale-title-large-font)',
+      'label': 'var(--material-typescale-label-large-font)',
+      'body': 'var(--material-typescale-body-large-font)'
     }
   },
   purge: [
