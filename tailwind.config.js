@@ -113,6 +113,11 @@ module.exports = {
       'title': 'var(--material-typescale-title-large-font)',
       'label': 'var(--material-typescale-label-large-font)',
       'body': 'var(--material-typescale-body-large-font)'
+    },
+    extend: {
+      borderRadius: {
+        'full': '20px'
+      }
     }
   },
   purge: [
