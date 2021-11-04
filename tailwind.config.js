@@ -115,6 +115,23 @@ module.exports = {
       'label': 'var(--material-typescale-label-large-font)',
       'body': 'var(--material-typescale-body-large-font)'
     },
+    fontSize: {
+      'display-large': 'var(--material-typescale-display-large-size)',
+      'display-medium': 'var(--material-typescale-display-medium-size)',
+      'display-small': 'var(--material-typescale-display-small-size)',
+      'headline-large': 'var(--material-typescale-headline-large-size)',
+      'headline-medium': 'var(--material-typescale-headline-medium-size)',
+      'headline-small': 'var(--material-typescale-headline-small-size)',
+      'title-large': 'var(--material-typescale-title-large-size)',
+      'title-medium': 'var(--material-typescale-title-medium-size)',
+      'title-small': 'var(--material-typescale-title-small-size)',
+      'label-large': 'var(--material-typescale-label-large-size)',
+      'label-medium': 'var(--material-typescale-label-medium-size)',
+      'label-small': 'var(--material-typescale-label-small-size)',
+      'body-large': 'var(--material-typescale-body-large-size)',
+      'body-medium': 'var(--material-typescale-body-medium-size)',
+      'body-small': 'var(--material-typescale-body-small-size)'
+    },
     extend: {
       borderRadius: {
         'full': '20px'
