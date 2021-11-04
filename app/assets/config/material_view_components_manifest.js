@@ -1,1 +1,1 @@
-//= link_directory ../stylesheets/material_view_components .css
+//= link_tree ../builds
