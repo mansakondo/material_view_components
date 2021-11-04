@@ -1,4 +1,5 @@
 module.exports = {
+  prefix: 'material-',
   theme: {
     colors: {
       'primary': {
