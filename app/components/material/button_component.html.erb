@@ -1,1 +1,3 @@
-<%= button_tag @text, class: classes, data: { controller: "material--button-component" } %>
+<%= button_tag class: classes, data: { controller: "material--button-component" } do %>
+  <%= text %>
+<% end %>

@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
 class Material::ButtonComponent < ViewComponent::Base
-  attr_reader :text
-
-  def initialize(text:)
-    @text = text
+  renders_one :text, -> (text) do
+    content_tag :span do
+      text
+    end
   end
 
   def classes
