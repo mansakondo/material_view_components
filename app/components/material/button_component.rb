@@ -19,6 +19,11 @@ class Material::ButtonComponent < ApplicationComponent
     end
   end
 
+  def initialize(name = "", html_options = {})
+    @name         = name
+    @html_options = html_options
+  end
+
   def classes
     super <<-CLASSES
     material-flex material-items-center #{icon ? "material-pl-4 material-pr-6" :
