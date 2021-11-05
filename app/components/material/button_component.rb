@@ -7,9 +7,15 @@ class Material::ButtonComponent < ViewComponent::Base
     end
   end
 
-  renders_one :icon, -> (name) do
-    content_tag :span, class: "material-icons material-pr-2" do
-      name
+  renders_one :icon, -> (name = nil, &block) do
+    if block
+      content_tag :span, class: "material-pr-2" do
+        block.call
+      end
+    else
+      content_tag :span, class: "material-icons material-pr-2" do
+        name
+      end
     end
   end
 
