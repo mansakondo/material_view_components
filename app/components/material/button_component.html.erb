@@ -1,4 +1,8 @@
 <%= button_to @name, @html_options.merge(form_class: "", class: classes, data: { controller: identifier }) do %>
-  <%= icon %>
-  <%= text %>
+  <div class="material-flex material-items-center">
+    <%= icon %>
+    <%= text %>
+  </div>
+  <div class="material-absolute material-w-full material-inset-0 material-bg-on-primary material-rounded-full material-opacity-0 hover:material-opacity-hover">
+  </div>
 <% end %>

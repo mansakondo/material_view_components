@@ -26,8 +26,8 @@ class Material::ButtonComponent < ApplicationComponent
 
   def classes
     super <<-CLASSES
-    material-flex material-items-center #{icon ? "material-pl-4 material-pr-6" :
-    "material-px-6"} material-h-10 material-bg-primary material-rounded-full
+    material-relative #{icon ? "material-pl-4 material-pr-6" : "material-px-6"}
+    material-h-10 material-bg-primary material-rounded-full
     material-text-on-primary material-text-label-large material-font-medium
     material-font-label material-leading-label-large
     CLASSES
