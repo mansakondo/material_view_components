@@ -161,6 +161,11 @@ module.exports = {
       },
     }
   },
+  variants: {
+    extend: {
+      opacity: ['active']
+    }
+  },
   purge: [
     './app/views/**/*.html.erb',
     './app/helpers/**/*.rb',
