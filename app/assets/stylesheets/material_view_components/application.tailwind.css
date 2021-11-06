@@ -170,6 +170,8 @@
 	--material-state-focus-overlay-opacity: 12%;
 	--material-state-pressed-overlay-opacity: 12%;
 	--material-state-dragged-overlay-opacity: 16%;
+	--material-state-disabled-content-overlay-opacity: 38%;
+	--material-state-disabled-container-overlay-opacity: 12%;
 }
 
 @tailwind base;
