@@ -11,7 +11,7 @@ class ApplicationComponent < ViewComponent::Base
       .gsub("_", "-")
   end
 
-  def classes(string)
+  def sanitize(string)
     string
       .strip
       .gsub(/\s{2,}|\n/, " ")
