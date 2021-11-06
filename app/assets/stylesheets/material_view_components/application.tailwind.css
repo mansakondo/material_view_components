@@ -164,6 +164,12 @@
 	--material-typescale-body-small-size: 12px;
 	--material-typescale-body-small-tracking: 0.4px;
 	--material-typescale-body-small-weight: var(--material-typeface-weight-regular);
+
+	/* Material Design overlay opacity values */
+	--material-state-hover-overlay-opacity: 8%;
+	--material-state-focus-overlay-opacity: 12%;
+	--material-state-pressed-overlay-opacity: 12%;
+	--material-state-dragged-overlay-opacity: 16%;
 }
 
 @tailwind base;

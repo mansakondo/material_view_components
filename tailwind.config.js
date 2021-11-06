@@ -152,7 +152,13 @@ module.exports = {
     extend: {
       borderRadius: {
         'full': '20px'
-      }
+      },
+      opacity: {
+        'hover': 'var(--material-state-hover-overlay-opacity)',
+        'focus': 'var(--material-state-focus-overlay-opacity)',
+        'pressed': 'var(--material-state-pressed-overlay-opacity)',
+        'dragged': 'var(--material-state-dragged-overlay-opacity)'
+      },
     }
   },
   purge: [
