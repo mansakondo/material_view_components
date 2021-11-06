@@ -1,8 +1,8 @@
 <%= button_to @name, @html_options.merge(form_class: "", class: classes, data: { controller: identifier }) do %>
-  <div class="material-flex material-items-center">
+  <div class="<%= content_classes %>">
     <%= icon %>
     <%= text %>
   </div>
-  <div class="material-absolute material-w-full material-inset-0 material-bg-on-primary material-rounded-full material-opacity-0 hover:material-opacity-hover focus:material-opacity-focus active:material-opacity-pressed">
+  <div class="<%= overlay_classes %>">
   </div>
 <% end %>
