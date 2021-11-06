@@ -157,7 +157,9 @@ module.exports = {
         'hover': 'var(--material-state-hover-overlay-opacity)',
         'focus': 'var(--material-state-focus-overlay-opacity)',
         'pressed': 'var(--material-state-pressed-overlay-opacity)',
-        'dragged': 'var(--material-state-dragged-overlay-opacity)'
+        'dragged': 'var(--material-state-dragged-overlay-opacity)',
+        'disabled-content': 'var(--material-state-disabled-content-overlay-opacity)',
+        'disabled-container': 'var(--material-state-disabled-container-overlay-opacity)'
       },
     }
   },
