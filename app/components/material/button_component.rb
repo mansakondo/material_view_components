@@ -30,19 +30,18 @@ class Material::ButtonComponent < ApplicationComponent
   def classes
     sanitize <<-CLASSES
     material-relative #{icon ? "material-pl-4 material-pr-6" : "material-px-6"}
-    material-h-10  material-rounded-full #{disabled ? "material-text-on-surface
-    dark:material-text-on-surface-on-dark material-cursor-default" :
-    "material-bg-primary material-text-on-primary
-    dark:material-bg-primary-on-dark dark:material-text-on-primary-on-dark"}
-    material-text-label-large material-font-medium material-font-label
-    material-leading-label-large
+    material-h-10  material-rounded-full #{disabled ? "material-cursor-default"
+    : "material-bg-primary dark:material-bg-primary-on-dark"}
     CLASSES
   end
 
   def content_classes
     sanitize <<-CLASSES
-    material-flex material-items-center #{"material-opacity-disabled-content" if
-    disabled}
+    material-flex material-items-center #{disabled ? "material-text-on-surface
+    dark:material-text-on-surface-on-dark material-opacity-disabled-content" :
+    "material-text-on-primary dark:material-text-on-primary-on-dark"}
+    material-text-label-large material-font-medium material-font-label
+    material-leading-label-large
     CLASSES
   end
 
