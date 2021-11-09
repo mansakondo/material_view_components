@@ -1,4 +1,4 @@
-<%= content_for :body_classes do %><%= sanitize "p-8" %><% end %>
+<%= content_for :body_classes do %><%= sanitize "p-8 dark:material-bg-background-on-dark dark:material-text-on-background-on-dark" %><% end %>
 
 <h1 class="pb-8 text-3xl">Material ViewComponents</h1>
 <h2 class="pb-4 text-2xl">Buttons</h2>
@@ -10,9 +10,7 @@
   <% end %>
 
   <%= render Material::ButtonComponent.new(disabled: true) do |button| %>
-    <%= button.icon do %>
-      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="var(--material-color-on-surface)"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
-    <% end %>
+    <%= button.icon "add" %>
     <%= button.text "Button" %>
   <% end %>
 </div>
