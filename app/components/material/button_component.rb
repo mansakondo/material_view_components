@@ -41,7 +41,7 @@ class Material::ButtonComponent < ApplicationComponent
     dark:material-text-on-surface-on-dark material-opacity-disabled-content" :
     "material-text-on-primary dark:material-text-on-primary-on-dark"}
     material-text-label-large material-font-medium material-font-label
-    material-leading-label-large
+    material-leading-label-large material-tracking-label-large
     CLASSES
   end
 
