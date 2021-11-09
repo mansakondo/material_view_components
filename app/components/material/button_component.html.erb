@@ -3,6 +3,8 @@
     <%= icon %>
     <%= text %>
   </div>
-  <div class="<%= overlay_classes %>">
-  </div>
+  <% unless disabled %>
+    <div class="<%= overlay_classes %>">
+    </div>
+  <% end %>
 <% end %>

@@ -46,9 +46,10 @@ class Material::ButtonComponent < ApplicationComponent
   def filled_button_container_classes
     sanitize <<-CLASSES
     material-relative #{icon ? "material-pl-4 material-pr-6" : "material-px-6"}
-    material-h-10  material-rounded-full hover:material-shadow #{disabled ?
-    "material-cursor-default" : "material-bg-primary
-    dark:material-bg-primary-on-dark"}
+    material-h-10  material-rounded-full #{disabled ?
+    "material-bg-disabled-container dark:material-bg-disabled-container-on-dark
+    material-cursor-default" : "material-bg-primary
+    dark:material-bg-primary-on-dark hover:material-shadow"}
     CLASSES
   end
 
@@ -63,28 +64,21 @@ class Material::ButtonComponent < ApplicationComponent
   end
 
   def filled_button_overlay_classes
-    state_classes =
-      if disabled
-        "material-bg-on-surface dark:material-bg-on-surface-on-dark material-opacity-disabled-container"
-      else
-        <<-CLASSES
-        material-bg-on-primary dark:material-bg-on-primary-on-dark material-opacity-0 hover:material-opacity-hover
-        focus:material-opacity-focus active:material-opacity-pressed
-        CLASSES
-      end
-
     sanitize <<-CLASSES
     material-absolute material-w-full material-inset-0 material-rounded-full
-    #{state_classes}
+    material-bg-on-primary dark:material-bg-on-primary-on-dark
+    material-opacity-0 hover:material-opacity-hover focus:material-opacity-focus
+    active:material-opacity-pressed
     CLASSES
   end
 
   def tonal_button_container_classes
     sanitize <<-CLASSES
     material-relative #{icon ? "material-pl-4 material-pr-6" : "material-px-6"}
-    material-h-10  material-rounded-full hover:material-shadow #{disabled ?
-    "material-cursor-default" : "material-bg-secondary-container
-    dark:material-bg-secondary-container-on-dark"}
+    material-h-10  material-rounded-full #{disabled ?
+    "material-bg-disabled-container dark:material-bg-disabled-container-on-dark
+    material-cursor-default" : "material-bg-secondary-container
+    dark:material-bg-secondary-container-on-dark hover:material-shadow"}
     CLASSES
   end
 
@@ -99,19 +93,11 @@ class Material::ButtonComponent < ApplicationComponent
   end
 
   def tonal_button_overlay_classes
-    state_classes =
-      if disabled
-        "material-bg-on-surface dark:material-bg-on-surface-on-dark material-opacity-disabled-container"
-      else
-        <<-CLASSES
-        material-bg-on-surface dark:material-bg-on-surface-on-dark material-opacity-0 hover:material-opacity-hover
-        focus:material-opacity-focus active:material-opacity-pressed
-        CLASSES
-      end
-
     sanitize <<-CLASSES
     material-absolute material-w-full material-inset-0 material-rounded-full
-    #{state_classes}
+    material-bg-on-surface dark:material-bg-on-surface-on-dark
+    material-opacity-0 hover:material-opacity-hover focus:material-opacity-focus
+    active:material-opacity-pressed
     CLASSES
   end
 
@@ -119,7 +105,7 @@ class Material::ButtonComponent < ApplicationComponent
     sanitize <<-CLASSES
     material-relative #{icon ? "material-pl-4 material-pr-6" : "material-px-6"}
     material-h-10 dark:material-outline-on-dark material-rounded-full
-    #{disabled ? "material-cursor-default material-outline-disabled
+    #{disabled ? "material-outline-disabled material-cursor-default
     dark:material-outline-disabled-on-dark" : "material-bg-surface
     dark:material-bg-surface-on-dark material-outline-default
     hover:material-shadow"}

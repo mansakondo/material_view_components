@@ -23,4 +23,14 @@
     <%= button.icon "add" %>
     <%= button.text "Button" %>
   <% end %>
+
+  <%= render Material::ButtonComponent.new(button_type: :outlined) do |button| %>
+    <%= button.icon "add" %>
+    <%= button.text "Button" %>
+  <% end %>
+
+  <%= render Material::ButtonComponent.new(button_type: :outlined, disabled: true) do |button| %>
+    <%= button.icon "add" %>
+    <%= button.text "Button" %>
+  <% end %>
 </div>
