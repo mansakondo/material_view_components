@@ -30,10 +30,12 @@ class Material::ButtonComponent < ApplicationComponent
   def classes
     sanitize <<-CLASSES
     material-relative #{icon ? "material-pl-4 material-pr-6" : "material-px-6"}
-    material-h-10  material-rounded-full
-    #{disabled ? "material-text-on-surface material-cursor-default" :
-    "material-bg-primary material-text-on-primary"} material-text-label-large
-    material-font-medium material-font-label material-leading-label-large
+    material-h-10  material-rounded-full #{disabled ? "material-text-on-surface
+    dark:material-text-on-surface-on-dark material-cursor-default" :
+    "material-bg-primary material-text-on-primary
+    dark:material-bg-primary-on-dark dark:material-text-on-primary-on-dark"}
+    material-text-label-large material-font-medium material-font-label
+    material-leading-label-large
     CLASSES
   end
 
@@ -47,10 +49,10 @@ class Material::ButtonComponent < ApplicationComponent
   def overlay_classes
     state_classes =
       if disabled
-        "material-bg-on-surface material-opacity-disabled-container"
+        "material-bg-on-surface dark:material-bg-on-surface-on-dark material-opacity-disabled-container"
       else
         <<-CLASSES
-        material-bg-on-primary material-opacity-0 hover:material-opacity-hover
+        material-bg-on-primary dark:material-bg-on-primary-on-dark material-opacity-0 hover:material-opacity-hover
         focus:material-opacity-focus active:material-opacity-pressed
         CLASSES
       end
