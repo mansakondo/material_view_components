@@ -79,6 +79,10 @@ module.exports = {
         DEFAULT: 'var(--material-color-on-surface-variant)',
         'on-dark': 'var(--material-color-on-surface-variant-on-dark)',
       },
+      'on-surface-disabled': {
+        DEFAULT: 'var(--material-color-on-surface-disabled)',
+        'on-dark': 'var(--material-color-on-surface-disabled-on-dark)',
+      },
       'on-background': {
         DEFAULT: 'var(--material-color-on-background)',
         'on-dark': 'var(--material-color-on-background-on-dark)',
@@ -166,6 +170,12 @@ module.exports = {
       'body-large': 'var(--material-typescale-body-large-tracking)',
       'body-medium': 'var(--material-typescale-body-medium-tracking)',
       'body-small': 'var(--material-typescale-body-small-tracking)'
+    },
+    outline: {
+      'default': '1px solid var(--material-color-outline)',
+      'on-dark': '1px solid var(--material-color-outline-on-dark)',
+      'disabled': '1px solid var(--material-color-outline-disabled)',
+      'disabled-on-dark': '1px solid var(--material-color-outline-disabled-on-dark)',
     },
     extend: {
       borderRadius: {

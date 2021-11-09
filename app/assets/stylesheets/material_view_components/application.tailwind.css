@@ -38,6 +38,8 @@
 	--material-color-on-surface-on-dark: #E6E1E5;
 	--material-color-on-surface-variant: #49454E;
 	--material-color-on-surface-variant-on-dark: #CAC4D0;
+	--material-color-on-surface-disabled: rgb(28 27 31 / 12%);
+	--material-color-on-surface-disabled-on-dark: rgb(230 225 229 / 12%);;
 	--material-color-on-background: #1C1B1F;
 	--material-color-on-background-on-dark: #E6E1E5;
 	--material-color-on-error: #FFFFFF;
@@ -46,6 +48,8 @@
 	--material-color-on-error-container-on-dark: #F9DEDC;
 	--material-color-outline: #79747E;
 	--material-color-outline-on-dark: #938F99;
+	--material-color-outline-disabled: rgb(121 116 126 / 12%);
+	--material-color-outline-disabled-on-dark: rgb(147 143 153 / 12%);
 	--material-color-shadow: #000000;
 	--material-color-inverse-surface: #313033;
 	--material-color-inverse-surface-on-dark: #E6E1E5;
