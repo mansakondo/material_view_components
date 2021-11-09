@@ -62,107 +62,107 @@
 
 	/* Display large */
 	--material-typescale-display-large-font: var(--material-typeface-brand-regular);
-	--material-typescale-display-large-line-height: 64px;
-	--material-typescale-display-large-size: 57px;
-	--material-typescale-display-large-tracking: 0px;
+	--material-typescale-display-large-line-height: 4rem;
+	--material-typescale-display-large-size: 3.5625rem;
+	--material-typescale-display-large-tracking: 0rem;
 	--material-typescale-display-large-weight: var(--material-typeface-weight-regular);
 
 	/* Display medium */
 	--material-typescale-display-medium-font: var(--material-typeface-brand-regular);
-	--material-typescale-display-medium-line-height: 52px;
-	--material-typescale-display-medium-size: 45px;
-	--material-typescale-display-medium-tracking: 0px;
+	--material-typescale-display-medium-line-height: 3.25rem;
+	--material-typescale-display-medium-size: 2.8125rem;
+	--material-typescale-display-medium-tracking: 0rem;
 	--material-typescale-display-medium-weight: var(--material-typeface-weight-regular);
 
 	/* Display small */
 	--material-typescale-display-small-font: var(--material-typeface-brand-regular);
-	--material-typescale-display-small-line-height: 44px;
-	--material-typescale-display-small-size: 32px;
-	--material-typescale-display-small-tracking: 0px;
+	--material-typescale-display-small-line-height: 2.75rem;
+	--material-typescale-display-small-size: 2rem;
+	--material-typescale-display-small-tracking: 0rem;
 	--material-typescale-display-small-weight: var(--material-typeface-weight-regular);
 
 	/* Headline large */
 	--material-typescale-headline-large-font: var(--material-typeface-brand-regular);
-	--material-typescale-headline-large-line-height: 40px;
-	--material-typescale-headline-large-size: 32px;
-	--material-typescale-headline-large-tracking: 0px;
+	--material-typescale-headline-large-line-height: 2.5rem;
+	--material-typescale-headline-large-size: 2rem;
+	--material-typescale-headline-large-tracking: 0rem;
 	--material-typescale-headline-large-weight: var(--material-typeface-weight-regular);
 
 	/* Headline medium */
 	--material-typescale-headline-medium-font: var(--material-typeface-brand-regular);
-	--material-typescale-headline-medium-line-height: 36px;
-	--material-typescale-headline-medium-size: 28px;
-	--material-typescale-headline-medium-tracking: 0px;
+	--material-typescale-headline-medium-line-height: 2.25rem;
+	--material-typescale-headline-medium-size: 1.75rem;
+	--material-typescale-headline-medium-tracking: 0rem;
 	--material-typescale-headline-medium-weight: var(--material-typeface-weight-regular);
 
 	/* Headline small */
 	--material-typescale-headline-small-font: var(--material-typeface-brand-regular);
-	--material-typescale-headline-small-line-height: 32px;
-	--material-typescale-headline-small-size: 24px;
-	--material-typescale-headline-small-tracking: 0px;
+	--material-typescale-headline-small-line-height: 2rem;
+	--material-typescale-headline-small-size: 1.5rem;
+	--material-typescale-headline-small-tracking: 0rem;
 	--material-typescale-headline-small-weight: var(--material-typeface-weight-regular);
 
 	/* Title large */
 	--material-typescale-title-large-font: var(--material-typeface-brand-regular);
-	--material-typescale-title-large-line-height: 28px;
-	--material-typescale-title-large-size: 22px;
-	--material-typescale-title-large-tracking: 0px;
+	--material-typescale-title-large-line-height: 1.75rem;
+	--material-typescale-title-large-size: 1.375rem;
+	--material-typescale-title-large-tracking: 0rem;
 	--material-typescale-title-large-weight: var(--material-typeface-weight-regular);
 
 	/* Title medium */
 	--material-typescale-title-medium-font: var(--material-typeface-plain-medium);
-	--material-typescale-title-medium-line-height: 24px;
-	--material-typescale-title-medium-size: 16px;
-	--material-typescale-title-medium-tracking: 0.15px;
+	--material-typescale-title-medium-line-height: 1.5rem;
+	--material-typescale-title-medium-size: 1rem;
+	--material-typescale-title-medium-tracking: 0.0094rem;
 	--material-typescale-title-medium-weight: var(--material-typeface-weight-medium);
 
 	/* Title small */
 	--material-typescale-title-small-font: var(--material-typeface-brand-regular);
-	--material-typescale-title-small-line-height: 28px;
-	--material-typescale-title-small-size: 22px;
-	--material-typescale-title-small-tracking: 0px;
+	--material-typescale-title-small-line-height: 1.75rem;
+	--material-typescale-title-small-size: 1.375rem;
+	--material-typescale-title-small-tracking: 0rem;
 	--material-typescale-title-small-weight: var(--material-typeface-weight-regular);
 
 	/* Label large */
 	--material-typescale-label-large-font: var(--material-typeface-plain-medium);
-	--material-typescale-label-large-line-height: 20px;
-	--material-typescale-label-large-size: 14px;
-	--material-typescale-label-large-tracking: 0.1px;
+	--material-typescale-label-large-line-height: 1.25rem;
+	--material-typescale-label-large-size: 0.875rem;
+	--material-typescale-label-large-tracking: 0.0063rem;
 	--material-typescale-label-large-weight: var(--material-typeface-weight-medium);
 
 	/* Label medium */
 	--material-typescale-label-medium-font: var(--material-typeface-plain-medium);
-	--material-typescale-label-medium-line-height: 16px;
-	--material-typescale-label-medium-size: 12px;
-	--material-typescale-label-medium-tracking: 0.1px;
+	--material-typescale-label-medium-line-height: 1rem;
+	--material-typescale-label-medium-size: 0.75rem;
+	--material-typescale-label-medium-tracking: 0.0063rem;
 	--material-typescale-label-medium-weight: var(--material-typeface-weight-medium);
 
 	/* Label small */
 	--material-typescale-label-small-font: var(--material-typeface-plain-medium);
-	--material-typescale-label-small-line-height: 6px;
-	--material-typescale-label-small-size: 11px;
-	--material-typescale-label-small-tracking: 0.5px;
+	--material-typescale-label-small-line-height: 0.375rem;
+	--material-typescale-label-small-size: 0.6875rem;
+	--material-typescale-label-small-tracking: 0.0313rem;
 	--material-typescale-label-small-weight: var(--material-typeface-weight-medium);
 
 	/* Body large */
 	--material-typescale-body-large-font: var(--material-typeface-plain-medium);
-	--material-typescale-body-large-line-height: 24px;
-	--material-typescale-body-large-size: 16px;
-	--material-typescale-body-large-tracking: 0.15px;
+	--material-typescale-body-large-line-height: 1.5rem;
+	--material-typescale-body-large-size: 1rem;
+	--material-typescale-body-large-tracking: 0.0094rem;
 	--material-typescale-body-large-weight: var(--material-typeface-weight-regular);
 
 	/* Body medium */
 	--material-typescale-body-medium-font: var(--material-typeface-plain-medium);
-	--material-typescale-body-medium-line-height: 20px;
-	--material-typescale-body-medium-size: 14px;
-	--material-typescale-body-medium-tracking: 0.25px;
+	--material-typescale-body-medium-line-height: 1.25rem;
+	--material-typescale-body-medium-size: 0.875rem;
+	--material-typescale-body-medium-tracking: 0.0156rem;
 	--material-typescale-body-medium-weight: var(--material-typeface-weight-regular);
 
 	/* Body small */
 	--material-typescale-body-small-font: var(--material-typeface-plain-medium);
-	--material-typescale-body-small-line-height: 16px;
-	--material-typescale-body-small-size: 12px;
-	--material-typescale-body-small-tracking: 0.4px;
+	--material-typescale-body-small-line-height: 1rem;
+	--material-typescale-body-small-size: 0.75rem;
+	--material-typescale-body-small-tracking: 0.025rem;
 	--material-typescale-body-small-weight: var(--material-typeface-weight-regular);
 
 	/* Material Design overlay opacity values */
