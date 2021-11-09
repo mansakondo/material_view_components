@@ -20,14 +20,30 @@ class Material::ButtonComponent < ApplicationComponent
   end
 
   attr_reader :disabled
+  attr_reader :button_type
 
-  def initialize(name = "", html_options = {}, disabled: false)
+  def initialize(name = "", html_options = {}, disabled: false, button_type: :filled)
     @name         = name
     @html_options = disabled ? html_options.merge(disabled: "disabled") : html_options
     @disabled     = disabled
+    @button_type  = button_type
   end
 
   def container_classes
+    send :"#{button_type}_button_container_classes"
+  end
+
+  def content_classes
+    send :"#{button_type}_button_content_classes"
+  end
+
+  def overlay_classes
+    send :"#{button_type}_button_overlay_classes"
+  end
+
+  private
+
+  def filled_button_container_classes
     sanitize <<-CLASSES
     material-relative #{icon ? "material-pl-4 material-pr-6" : "material-px-6"}
     material-h-10  material-rounded-full #{disabled ? "material-cursor-default"
@@ -35,7 +51,7 @@ class Material::ButtonComponent < ApplicationComponent
     CLASSES
   end
 
-  def content_classes
+  def filled_button_content_classes
     sanitize <<-CLASSES
     material-flex material-items-center #{disabled ? "material-text-on-surface
     dark:material-text-on-surface-on-dark material-opacity-disabled-content" :
@@ -45,7 +61,7 @@ class Material::ButtonComponent < ApplicationComponent
     CLASSES
   end
 
-  def overlay_classes
+  def filled_button_overlay_classes
     state_classes =
       if disabled
         "material-bg-on-surface dark:material-bg-on-surface-on-dark material-opacity-disabled-container"
