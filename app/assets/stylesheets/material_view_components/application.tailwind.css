@@ -22,6 +22,8 @@
 	--material-color-error-on-dark: #F2B8B5;
 	--material-color-error-container: #F9DEDC;
 	--material-color-error-container-on-dark: #8C1D18;
+	--material-color-disabled-container: rgb(28 27 31 / 12%);
+	--material-color-disabled-container-on-dark: rgb(230 225 229 / 12%);
 	--material-color-on-primary: #FFFFFF;
 	--material-color-on-primary-on-dark: #371E73;
 	--material-color-on-primary-container: #21005E;
@@ -38,8 +40,6 @@
 	--material-color-on-surface-on-dark: #E6E1E5;
 	--material-color-on-surface-variant: #49454E;
 	--material-color-on-surface-variant-on-dark: #CAC4D0;
-	--material-color-on-surface-disabled: rgb(28 27 31 / 12%);
-	--material-color-on-surface-disabled-on-dark: rgb(230 225 229 / 12%);;
 	--material-color-on-background: #1C1B1F;
 	--material-color-on-background-on-dark: #E6E1E5;
 	--material-color-on-error: #FFFFFF;

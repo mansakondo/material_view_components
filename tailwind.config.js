@@ -47,6 +47,10 @@ module.exports = {
         DEFAULT: 'var(--material-color-error-container)',
         'on-dark': 'var(--material-color-error-container-on-dark)',
       },
+      'disabled-container': {
+        DEFAULT: 'var(--material-color-disabled-container)',
+        'on-dark': 'var(--material-color-disabled-container-on-dark)',
+      },
       'on-primary': {
         DEFAULT: 'var(--material-color-on-primary)',
         'on-dark': 'var(--material-color-on-primary-on-dark)',
@@ -78,10 +82,6 @@ module.exports = {
       'on-surface-variant': {
         DEFAULT: 'var(--material-color-on-surface-variant)',
         'on-dark': 'var(--material-color-on-surface-variant-on-dark)',
-      },
-      'on-surface-disabled': {
-        DEFAULT: 'var(--material-color-on-surface-disabled)',
-        'on-dark': 'var(--material-color-on-surface-disabled-on-dark)',
       },
       'on-background': {
         DEFAULT: 'var(--material-color-on-background)',
