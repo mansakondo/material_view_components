@@ -1,5 +1,6 @@
 module.exports = {
   prefix: 'material-',
+  darkMode: 'class',
   theme: {
     colors: {
       'primary': {
