@@ -46,8 +46,9 @@ class Material::ButtonComponent < ApplicationComponent
   def filled_button_container_classes
     sanitize <<-CLASSES
     material-relative #{icon ? "material-pl-4 material-pr-6" : "material-px-6"}
-    material-h-10  material-rounded-full #{disabled ? "material-cursor-default"
-    : "material-bg-primary dark:material-bg-primary-on-dark"}
+    material-h-10  material-rounded-full hover:material-shadow #{disabled ?
+    "material-cursor-default" : "material-bg-primary
+    dark:material-bg-primary-on-dark"}
     CLASSES
   end
 
@@ -81,8 +82,9 @@ class Material::ButtonComponent < ApplicationComponent
   def tonal_button_container_classes
     sanitize <<-CLASSES
     material-relative #{icon ? "material-pl-4 material-pr-6" : "material-px-6"}
-    material-h-10  material-rounded-full #{disabled ? "material-cursor-default"
-    : "material-bg-secondary-container dark:material-bg-secondary-container-on-dark"}
+    material-h-10  material-rounded-full hover:material-shadow #{disabled ?
+    "material-cursor-default" : "material-bg-secondary-container
+    dark:material-bg-secondary-container-on-dark"}
     CLASSES
   end
 
