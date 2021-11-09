@@ -150,6 +150,23 @@ module.exports = {
       'body-medium': 'var(--material-typescale-body-medium-line-height)',
       'body-small': 'var(--material-typescale-body-small-line-height)'
     },
+    letterSpacing: {
+      'display-large': 'var(--material-typescale-display-large-tracking)',
+      'display-medium': 'var(--material-typescale-display-medium-tracking)',
+      'display-small': 'var(--material-typescale-display-small-tracking)',
+      'headline-large': 'var(--material-typescale-headline-large-tracking)',
+      'headline-medium': 'var(--material-typescale-headline-medium-tracking)',
+      'headline-small': 'var(--material-typescale-headline-small-tracking)',
+      'title-large': 'var(--material-typescale-title-large-tracking)',
+      'title-medium': 'var(--material-typescale-title-medium-tracking)',
+      'title-small': 'var(--material-typescale-title-small-tracking)',
+      'label-large': 'var(--material-typescale-label-large-tracking)',
+      'label-medium': 'var(--material-typescale-label-medium-tracking)',
+      'label-small': 'var(--material-typescale-label-small-tracking)',
+      'body-large': 'var(--material-typescale-body-large-tracking)',
+      'body-medium': 'var(--material-typescale-body-medium-tracking)',
+      'body-small': 'var(--material-typescale-body-small-tracking)'
+    },
     extend: {
       borderRadius: {
         'full': '20px'
