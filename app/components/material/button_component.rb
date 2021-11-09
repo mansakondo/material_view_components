@@ -27,7 +27,7 @@ class Material::ButtonComponent < ApplicationComponent
     @disabled     = disabled
   end
 
-  def classes
+  def container_classes
     sanitize <<-CLASSES
     material-relative #{icon ? "material-pl-4 material-pr-6" : "material-px-6"}
     material-h-10  material-rounded-full #{disabled ? "material-cursor-default"
