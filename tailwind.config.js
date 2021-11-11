@@ -192,6 +192,12 @@ module.exports = {
         'disabled-content': 'var(--material-state-disabled-content-overlay-opacity)',
         'disabled-container': 'var(--material-state-disabled-container-overlay-opacity)'
       },
+      height: {
+        '56px': '56px'
+      },
+      width: {
+        '56px': '56px'
+      }
     }
   },
   variants: {
