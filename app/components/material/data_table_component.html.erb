@@ -1,1 +1,22 @@
-<div>Add Material::DataTable template here</div>
+<table border="1" class="material-bg-surface dark:material-bg-surface-on-dark material-rounded-sm material-text-on-surface dark:material-text-on-surface-on-dark" style="outline: 1px solid rgb(0, 0, 0, .12)">
+  <thead>
+    <tr class="material-h-12">
+      <% headers.each do |header| %>
+        <th scope="col" class="material-px-4 material-opacity-60">
+          <%= header %>
+        </th>
+      <% end %>
+    </tr>
+  </thead>
+  <tbody>
+    <% items.each do |item| %>
+      <tr class="material-h-11 material-border-t" style="border-color: rgb(0, 0, 0, .12)">
+        <% headers.each do |header| %>
+          <td class="material-px-4 material-py-1 material-pr-2">
+            <%= item.as_json[header.to_s] %>
+          </td>
+        <% end %>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

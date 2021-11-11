@@ -54,3 +54,8 @@
     <%= button.text "Button" %>
   <% end %>
 </div>
+
+<h2>Data Table</h2>
+<%= render Material::DataTableComponent.new(headers: [:id, :name, :age], items: [
+  { id: 1, name: "Mansa", age: "22" },
+]) %>
