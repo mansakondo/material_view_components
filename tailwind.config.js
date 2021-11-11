@@ -1,6 +1,9 @@
 module.exports = {
   prefix: 'material-',
   darkMode: 'class',
+  plugins: [
+    require('tailwindcss-elevation')(['responsive']),
+  ],
   theme: {
     colors: {
       'primary': {

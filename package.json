@@ -7,7 +7,8 @@
     "esbuild": "^0.13.12",
     "esbuild-plugin-import-glob": "^0.1.1",
     "postcss": "^8.3.11",
-    "tailwindcss": "^2.2.19"
+    "tailwindcss": "^2.2.19",
+    "tailwindcss-elevation": "^1.0.1"
   },
   "scripts": {
     "build:css": "tailwindcss -i ./app/assets/stylesheets/material_view_components/application.tailwind.css -o ./app/assets/builds/material_view_components/application.css",
