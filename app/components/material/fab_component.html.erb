@@ -1,1 +1,8 @@
-<div>Add Material::FAB template here</div>
+<%= button_to @name, @html_options.merge(form_class: "", class: container_classes, data: { controller: identifier }) do %>
+  <div class="<%= content_classes %>">
+    <%= icon %>
+  </div>
+
+  <div class="<%= overlay_classes %>">
+  </div>
+<% end %>

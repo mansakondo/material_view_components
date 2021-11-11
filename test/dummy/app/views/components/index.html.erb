@@ -54,3 +54,10 @@
     <%= button.text "Button" %>
   <% end %>
 </div>
+
+<h2>FABs</h2>
+<div class="material-flex material-gap-4">
+  <%= render Material::FABComponent.new do |fab| %>
+    <%= fab.icon "add" %>
+  <% end %>
+</div>
