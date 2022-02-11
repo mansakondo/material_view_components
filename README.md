@@ -1,5 +1,7 @@
 # MaterialViewComponents
-Short description and motivation.
+:warning: This project is still in prototypal stage so don't use it in production!
+
+Material Design with ViewComponent and TailwindCSS.
 
 ## Usage
 How to use my plugin.
