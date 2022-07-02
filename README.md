@@ -1,6 +1,9 @@
 # MaterialViewComponents
 Material Design with ViewComponents and TailwindCSS.
 
+
+:warning: This project is still in prototypal stage so don't use it in production!
+
 ## Usage
 Currently, only Material buttons components are available. 
 
