@@ -13,50 +13,50 @@ Button components are wrapper around the [`button_to`](https://edgeapi.rubyonrai
 #### Regular buttons
 ```erb
 <%= render Material::ButtonComponent.new do |button| %>
-	<%= button.icon "add" %>
-	<%= button.text "Button" %>
+  <%= button.icon "add" %>
+  <%= button.text "Button" %>
 <% end %>
 
 <%= render Material::ButtonComponent.new(disabled: true) do |button| %>
-	<%= button.icon "add" %>
-	<%= button.text "Button" %>    
+  <%= button.icon "add" %>
+  <%= button.text "Button" %>    
 <% end %>    
 	
 <%= render Material::ButtonComponent.new(button_type: :tonal) do |button| %>    
-	<%= button.icon "add" %>    
-	<%= button.text "Button" %>    
+  <%= button.icon "add" %>    
+  <%= button.text "Button" %>    
 <% end %>    
 	
 <%= render Material::ButtonComponent.new(button_type: :tonal, disabled: true) do |button| %>    
-	<%= button.icon "add" %>    
-	<%= button.text "Button" %>    
+  <%= button.icon "add" %>    
+  <%= button.text "Button" %>    
 <% end %>    
 	 
 <%= render Material::ButtonComponent.new(button_type: :outlined) do |button| %>    
-	<%= button.icon "add" %>    
-	<%= button.text "Button" %>    
+  <%= button.icon "add" %>    
+  <%= button.text "Button" %>    
 <% end %>        
 	 
 <%= render Material::ButtonComponent.new(button_type: :outlined, disabled: true) do |button| %>    
-	<%= button.icon "add" %>    
-	<%= button.text "Button" %>    
+  <%= button.icon "add" %>    
+  <%= button.text "Button" %>    
 <% end %>    
 	 
 <%= render Material::ButtonComponent.new(button_type: :elevated) do |button| %>    
-	<%= button.icon "add" %>    
-	<%= button.text "Button" %>    
+  <%= button.icon "add" %>    
+  <%= button.text "Button" %>    
 <% end %>    
 
 <%= render Material::ButtonComponent.new(button_type: :elevated, disabled: true) do |button| %>
-	<%= button.icon "add" %>
-	<%= button.text "Button" %>
+  <%= button.icon "add" %>
+  <%= button.text "Button" %>
 <% end %>
 ```
 
 #### FABs
 ```erb
 <%= render Material::FABComponent.new do |fab| %>
-	<%= fab.icon "add" %>
+  <%= fab.icon "add" %>
 <% end %>
 ```
 
